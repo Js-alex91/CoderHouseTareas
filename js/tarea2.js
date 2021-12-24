@@ -11,7 +11,7 @@ else if(mascotas >= 3 && mascotas <= 5){
 else if(mascotas >= 5 ){
     alert("usted tiene muchas mascotas")
 }
-else if(mascotas != String){
+else if(mascotas !== String && mascotas !== 0 ){
     alert("ingrese un caracter numerico")
 }
 else{
